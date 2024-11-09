@@ -50,7 +50,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://github.com/tmby/sing-box-dns-filter/raw/refs/heads/main/geosite-dnsblock.srs",
+        "url": "https://github.com/reeceyng/sing-box-dns-filter/raw/refs/heads/main/geosite-dnsblock.srs",
         "download_detour": "proxy"
       }
     ]
@@ -75,7 +75,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://github.com/tmby/sing-box-dns-filter/raw/refs/heads/main/geosite-dnsblock.srs",
+        "url": "https://github.com/reeceyng/sing-box-dns-filter/raw/refs/heads/main/geosite-dnsblock.srs",
         "download_detour": "proxy"
       }
     ]
