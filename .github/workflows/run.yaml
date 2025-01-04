@@ -33,7 +33,7 @@ jobs:
 
       - name: Convert Using Sing-box
         run: |
-          ./sing-box-1.10.6-linux-amd64/sing-box rule-set convert --type adguard --output geosite-dnsblock.srs ./temp_filters.txt
+          ./sing-box-1.10.6-linux-amd64/sing-box rule-set convert --type adguard --output geosite-dnsblock.srs ./dns_filters.txt
 
       - name: Commit geosite-dnsblock.srs to Root Directory
         run: |
