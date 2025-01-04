@@ -6,15 +6,26 @@ urls = [
 ]
 
 unique_lines = set()
+blacklist = set([
+    "dns-tunnel-check.googlezip.net"
+])
+
+whitelist = set([
+])
 
 def download_filters(urls):
     for url in urls:
         try:
             response = requests.get(url, timeout=10)
             response.raise_for_status()
-            unique_lines.update(
-                line.strip() for line in response.text.splitlines() if not line.startswith('!')
-            )
+            for line in response.text.splitlines():
+                stripped_line = line.strip()
+                if stripped_line.startswith('!'):  # 跳过注释行
+                    continue
+                if stripped_line in blacklist:  # 如果在黑名单中，添加到 unique_lines
+                    unique_lines.add(stripped_line)
+                elif stripped_line not in whitelist:  # 如果不在白名单中，添加到 unique_lines
+                    unique_lines.add(stripped_line)
         except requests.RequestException as e:
             print(f"Download failed for {url}: {e}")
 
