@@ -4,8 +4,7 @@ from typing import List, Set
 
 # --- 配置 ---
 FILTER_URLS: List[str] = [
-    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-    "https://small.oisd.nl"
+    "https://big.oisd.nl"
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
