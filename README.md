@@ -22,7 +22,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
 
 ## 添加规则
 
-[Fork](https://github.com/tmby/sing-box-dns-filter/fork) 后在 `run.py` 中自行增减，actions 会每天上传一次编译产物。
+[Fork](https://github.com/reeceyng/sing-box-dns-filter/fork) 后在 `run.py` 中自行增减，actions 会每天上传一次编译产物。
 
 ## 使用方法
 
@@ -52,7 +52,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
+        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/main/geosite-dnsblock.srs"
       }
     ]
   }
@@ -77,7 +77,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
+        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/main/geosite-dnsblock.srs"
       }
     ]
   }
