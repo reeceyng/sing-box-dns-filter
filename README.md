@@ -6,24 +6,6 @@
 
 ## 引用过滤器
 
-### AdGuard DNS 过滤器
-
-AdGuard DNS 过滤器包含多个过滤器，主要包括：
-
-- **AdGuard 基础过滤器**
-
-- **社交媒体过滤器**
-
-- **防跟踪保护过滤器**
-
-- **移动广告过滤器**
-
-- **EasyList 和 EasyPrivacy**
-
-该过滤器经过简化，确保与 DNS 级别的广告拦截兼容。AdGuard DNS 服务器使用此过滤器有效拦截广告和跟踪器。
-
-[查看规则](https://github.com/AdguardTeam/AdGuardSDNSFilter)
-
 ### OISD 过滤器
 
 OISD 阻止列表旨在防止设备连接到不必要或有害的域。其特点包括：
@@ -70,7 +52,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/tmby/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
+        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
       }
     ]
   }
@@ -95,7 +77,7 @@ OISD 列表优先考虑功能性，适合在家庭、工作等场合使用，用
         "type": "remote",
         "tag": "geosite-dnsblock",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/tmby/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
+        "url": "https://raw.githubusercontent.com/reeceyng/sing-box-dns-filter/refs/heads/main/geosite-dnsblock.srs"
       }
     ]
   }
